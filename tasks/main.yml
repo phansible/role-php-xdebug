@@ -5,7 +5,7 @@
 
 - name: Apply xDebug settings
   become: yes
-  lineinfile: dest=/etc/php/5.6/mods-available/xdebug.ini
+  lineinfile: dest=/etc/php/{{ php_version }}/mods-available/xdebug.ini
               regexp='^;?{{ item.key }}'
               line='{{ item.key }}={{ item.value }}'
   notify: restart php-fpm
