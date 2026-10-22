@@ -5,12 +5,17 @@ galaxy_info:
   author: The Phansible Team & Contributors
   description: An Ansible Role that installs PHP XDebug on Linux servers specifically created with Phansible in mind.
   license: MIT
-  min_ansible_version: 2.4
+  min_ansible_version: 2.15
   platforms:
   - name: Ubuntu
     versions:
-    - trusty
-    - xenial
+    - jammy
+    - noble
+    - resolute
+  - name: Debian
+    versions:
+    - bookworm
+    - trixie
   galaxy_tags:
     - development
     - web
