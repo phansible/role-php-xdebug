@@ -1,6 +1,6 @@
 # Phansible Role: PHP Xdebug Extension
 
-[![Build Status](https://travis-ci.org/phansible/role-php-xdebug.svg?branch=master)](https://travis-ci.org/phansible/role-php-xdebug)
+[![CI](https://github.com/phansible/role-php-xdebug/actions/workflows/ci.yml/badge.svg)](https://github.com/phansible/role-php-xdebug/actions/workflows/ci.yml)
 
 An Ansible Role that installs PHP [XDebug](http://xdebug.org/) on Linux servers specifically created with [Phansible](http://phansible.com/) in mind.
 
